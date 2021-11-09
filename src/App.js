@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import ReviewDetails from "./pages/ReviewDetails"
-import Category from "./pages/ReviewDetails"
+import Category from "./pages/Category"
 import SiteHeader from "./components/SiteHeader";
 
 function App() {
