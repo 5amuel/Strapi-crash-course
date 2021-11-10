@@ -12,7 +12,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloClient client={client}>
+    <ApolloProvider client={client}>
       <div className="App">
         <SiteHeader />
         <Routes>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/category/:id" element={<Category />} />
         </Routes>
       </div>
-    </ApolloClient>
+    </ApolloProvider>
   );
 }
 
